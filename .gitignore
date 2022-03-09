@@ -34,3 +34,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+dailydevdose.sublime-workspace
+public/static/images/card.ai
+public/static/images/logo.ai
+public/static/images/title-card.ai

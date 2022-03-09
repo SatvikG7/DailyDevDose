@@ -6,7 +6,7 @@ import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-
+import Image from './Image'
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
@@ -16,10 +16,15 @@ const LayoutWrapper = ({ children }) => {
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
                 <div className="mr-3">
-                  <Logo />
+                  <Image
+                    width={64}
+                    height={64}
+                    src={'/static/favicons/logo.svg'}
+                    alt={'Daily Dev Dose Logo'}
+                  />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
+                  <div className="mb-5 hidden h-6 text-4xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
