@@ -11,7 +11,9 @@
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
     "generate:icons": "node ./scripts/generate-icons",
-    "generate:sitemap": "node ./scripts/generate-sitemap"
+    "generate:sitemap": "node ./scripts/generate-sitemap",
+    "prettier:check": "prettier --check .",
+    "prettier:write": "prettier --write ."
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
