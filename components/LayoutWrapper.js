@@ -1,12 +1,11 @@
-import siteMetadata from '@/data/siteMetadata'
-import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo.svg'
-import Link from './Link'
-import SectionContainer from './SectionContainer'
-import Footer from './Footer'
-import MobileNav from './MobileNav'
-import ThemeSwitch from './ThemeSwitch'
-import Image from './Image'
+import siteMetadata from "@/data/siteMetadata";
+import headerNavLinks from "@/data/headerNavLinks";
+import Link from "./Link";
+import SectionContainer from "./SectionContainer";
+import Footer from "./Footer";
+import MobileNav from "./MobileNav";
+import ThemeSwitch from "./ThemeSwitch";
+import Image from "./Image";
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
@@ -19,11 +18,11 @@ const LayoutWrapper = ({ children }) => {
                   <Image
                     width={64}
                     height={64}
-                    src={'/static/favicons/logo.svg'}
-                    alt={'Daily Dev Dose Logo'}
+                    src={"/static/favicons/logo.svg"}
+                    alt={"Daily Dev Dose Logo"}
                   />
                 </div>
-                {typeof siteMetadata.headerTitle === 'string' ? (
+                {typeof siteMetadata.headerTitle === "string" ? (
                   <div className="mb-5 hidden h-6 text-4xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
                   </div>
@@ -53,7 +52,7 @@ const LayoutWrapper = ({ children }) => {
         <Footer />
       </div>
     </SectionContainer>
-  )
-}
+  );
+};
 
-export default LayoutWrapper
+export default LayoutWrapper;

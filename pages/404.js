@@ -1,4 +1,4 @@
-import Link from '@/components/Link'
+import Link from "@/components/Link";
 
 export default function FourZeroFour() {
   return (
@@ -10,7 +10,7 @@ export default function FourZeroFour() {
       </div>
       <div className="max-w-md">
         <p className="mb-4 text-xl font-bold leading-normal md:text-2xl">
-          Sorry we couldn't find this page.
+          Sorry we couldn&apos;t find this page.
         </p>
         <p className="mb-8">But dont worry, you can find plenty of other things on our homepage.</p>
         <Link href="/">
@@ -20,5 +20,5 @@ export default function FourZeroFour() {
         </Link>
       </div>
     </div>
-  )
+  );
 }

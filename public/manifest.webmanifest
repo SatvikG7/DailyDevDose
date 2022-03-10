@@ -1,0 +1,30 @@
+{
+  "name": "Daily Dev Dose",
+  "short_name": "DDD",
+  "id": "https://dailydevdose.vercel.app/",
+  "start_url": "https://dailydevdose.vercel.app/",
+  "description": "Daily Dev Dose is blog about web development, programming, and other stuffs for developers.",
+  "scope": ".",
+  "icons": [
+    {
+      "src": "/static/favicons/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/favicons/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/static/favicons/logo.svg",
+      "type": "image/svg",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "standalone",
+  "orientation": "portrait"
+}
