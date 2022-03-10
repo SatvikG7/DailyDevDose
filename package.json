@@ -13,7 +13,8 @@
     "generate:icons": "node ./scripts/generate-icons",
     "generate:sitemap": "node ./scripts/generate-sitemap",
     "prettier:check": "prettier --check .",
-    "prettier:write": "prettier --write ."
+    "prettier:write": "prettier --write .",
+    "compose": "node ./scripts/compose"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
