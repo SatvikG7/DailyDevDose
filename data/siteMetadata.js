@@ -17,7 +17,7 @@ const siteMetadata = {
   linkedin: "https://www.linkedin.com/in/SatvikG7/",
   locale: "en-US",
   analytics: {
-    googleAnalyticsId: process.env.GOOGLE_ANALYTICS,
+    googleAnalyticsId: process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS,
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue
