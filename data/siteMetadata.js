@@ -14,13 +14,10 @@ const siteMetadata = {
   email: "satvikg7@pm.me",
   github: "https://github.com/SatvikG7",
   twitter: "https://twitter.com/satvik_g_7",
-  linkedin: "https://www.linkedin.com",
+  linkedin: "https://www.linkedin.com/in/SatvikG7/",
   locale: "en-US",
   analytics: {
-    // If you want to use an analytics provider you have to add it to the
-    // content security policy in the `next.config.js` file.
-    // supports plausible, simpleAnalytics, umami or googleAnalytics
-    googleAnalyticsId: process.env.GOOGLE_ANALYTICS, // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: process.env.GOOGLE_ANALYTICS,
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue
