@@ -1,19 +1,18 @@
 import Script from "next/script";
-
-const GAScript = ({ googleAnalyticsId }) => {
+import siteMetadata from "@/data/siteMetadata";
+const GAScript = () => {
+  const tag = siteMetadata.analytics.googleAnalyticsId;
+  console.log(tag);
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`}
-      />
+      <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${tag}`} />
 
       <Script strategy="lazyOnload" id="ga-script">
         {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${googleAnalyticsId}', {
+            gtag('config', '${tag}', {
               page_path: window.location.pathname,
             });
         `}
