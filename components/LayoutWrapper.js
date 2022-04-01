@@ -19,6 +19,7 @@ const LayoutWrapper = ({ children }) => {
                     width={64}
                     height={64}
                     src={"/static/favicons/logo.svg"}
+                    priority={true}
                     alt={"Daily Dev Dose Logo"}
                   />
                 </div>
